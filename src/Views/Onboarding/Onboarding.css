@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border: red dashed 2px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100px;
+  height: 100px;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+  border: red dashed 2px;
+}
+
+.text-container p {
+  margin-top: 100px;
+}
+
+button {
+  margin-top: 20px;
+  background-color: #6B63FF;
+  border: red dashed 2px;
+  width: 60%;
+  height: 60px;
+  border-radius: 10px;;
+}
